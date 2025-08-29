@@ -1,0 +1,20 @@
+# editors & caches
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+
+# large/local artifacts
+data/*.csv
+data/*.xlsx
+models/
+reports/
+
+# allow small samples we’ll add below
+!data/sample_divorce_data.csv
+!reports/cv_rf_vs_lr.txt
+!reports/cv_rf_vs_lr.csv
+!reports/feature_importance.png
+
+# envs & secrets (if any)
+.env

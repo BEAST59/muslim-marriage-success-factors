@@ -1,0 +1,52 @@
+Timestamp,What is your age range?  ,What is your gender?  ,What is your highest level of education?  ,What is your employment status?  ,What is your household monthly income (in RM)?  ,How long have you been married?  ,Do you and your spouse have a stable monthly income?  ,Do financial issues frequently cause conflict in your marriage?  ,"Do you and your spouse plan your finances together (e.g., budgeting, saving)?  ",How satisfied are you with your financial situation as a couple?  ,"How often do you and your spouse have open, meaningful conversations?
+Linear scale (1–5)",Are you satisfied with how you and your spouse resolve conflicts?  ,How often do disagreements escalate into serious arguments?  ,Do you and your spouse share similar Islamic values and principles?  ,"How often do you engage in religious activities together (e.g., prayer, study)?  ",Does religion play a central role in your marriage?  ,How often do family members interfere in your marriage?  ,Do you feel pressured by societal expectations about marriage?  ,How supportive is your extended family toward your marriage?  ,"Overall, how satisfied are you with your marriage?  ",How would you rate your emotional well-being in your marriage?  ,Do you believe your marriage is stable and will last long-term?  
+5/9/2025 10:04,26–35,Male,Degree,Self-employed,RM3001–RM5000,Less than 1 year,Yes,3,Yes,3,3,3,3,Yes,3,3,3,Yes,3,3,3,Maybe
+5/9/2025 10:06,36–45,Male,Master,Employed,RM5001–RM7000,7–10 years,Yes,2,Yes,4,4,4,2,Yes,2,4,1,No,4,4,4,Yes
+5/9/2025 10:13,18–25,Male,Degree,Employed,RM3001–RM5000,Less than 1 year,Yes,2,Yes,4,4,4,2,Yes,4,4,3,No,4,4,4,Yes
+5/9/2025 10:26,18–25,Male,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,5,5,3,Yes,4,5,3,No,5,5,5,Yes
+5/9/2025 13:21,18–25,Male,Master,Employed,Above RM7000,1–3 years,Yes,2,Yes,4,3,4,2,Yes,2,5,2,No,3,5,4,Yes
+5/9/2025 14:06,18–25,Male,Degree,Unemployed,RM1000–RM3000,1–3 years,Yes,3,No,3,3,4,4,No,4,3,4,No,5,4,4,Maybe
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,4–6 years,Yes,3,Yes,4,4,4,3,Yes,4,4,2,No,5,4,4,Yes
+5/9/2025 22:02,56 and above,Male,SPM,Retired,Below RM1000,Less than 1 year,No,1,No,2,2,2,5,No,2,2,5,Yes,2,2,2,No
+5/9/2025 22:02,36–45,Male,Master,Homemaker,RM1000–RM3000,More than 10 years,Yes,2,No,5,5,5,1,Yes,5,3,1,Yes,3,3,5,Maybe
+5/9/2025 22:02,18–25,Female,Diploma,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,46–55,Male,Master,Unemployed,Above RM7000,More than 10 years,No,5,No,5,5,5,4,Yes,5,3,4,Yes,3,3,5,Maybe
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,36–45,Male,Diploma,Self-employed,RM1000–RM3000,7–10 years,Yes,4,Yes,3,3,4,1,Yes,4,5,1,No,4,5,4,Yes
+5/9/2025 22:02,46–55,Male,SPM,Unemployed,Above RM7000,More than 10 years,No,5,No,2,2,2,4,No,2,2,4,Yes,2,2,2,No
+5/9/2025 22:02,18–25,Female,Diploma,Self-employed,RM5001–RM7000,7–10 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,46–55,Male,SPM,Unemployed,Above RM7000,More than 10 years,No,5,No,2,2,2,4,No,2,2,4,Yes,2,2,2,No
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,46–55,Male,Master,Homemaker,Above RM7000,More than 10 years,Yes,5,No,5,5,5,4,Yes,5,3,4,Yes,3,3,5,Maybe
+5/9/2025 22:02,36–45,Male,Diploma,Homemaker,RM1000–RM3000,7–10 years,Yes,2,Yes,5,5,5,1,Yes,5,3,1,Yes,3,3,5,Maybe
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,18–25,Female,Diploma,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,18–25,Male,Diploma,Self-employed,RM5001–RM7000,7–10 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,36–45,Male,Diploma,Self-employed,RM1000–RM3000,7–10 years,Yes,2,Yes,3,5,5,1,Yes,5,5,1,Yes,4,5,5,Yes
+5/9/2025 22:02,46–55,Male,Master,Homemaker,Above RM7000,More than 10 years,Yes,5,No,5,5,5,4,Yes,5,3,4,Yes,3,3,5,Maybe
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,36–45,Male,Diploma,Homemaker,RM1000–RM3000,7–10 years,Yes,2,Yes,5,5,5,1,Yes,5,3,1,Yes,3,3,5,Maybe
+5/9/2025 22:02,36–45,Male,Master,Homemaker,RM1000–RM3000,More than 10 years,Yes,2,Yes,5,5,5,1,Yes,5,3,1,Yes,3,3,5,Maybe
+5/9/2025 22:02,56 and above,Male,SPM,Retired,Below RM1000,Less than 1 year,No,1,No,2,2,2,5,No,2,2,5,Yes,2,2,2,No
+5/9/2025 22:02,46–55,Male,Master,Unemployed,Above RM7000,More than 10 years,No,5,No,5,5,5,4,Yes,5,3,4,Yes,3,3,5,Maybe
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,4–6 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,56 and above,Male,PhD,Retired,Below RM1000,Less than 1 year,No,1,No,1,1,1,5,No,1,1,5,Yes,1,1,1,No
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,36–45,Male,Diploma,Self-employed,RM1000–RM3000,7–10 years,Yes,2,Yes,3,5,5,1,Yes,5,5,1,Yes,4,5,5,Yes
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,3,Yes,4,3,4,2,Yes,4,4,3,No,5,4,4,Yes
+5/9/2025 22:02,18–25,Female,Diploma,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,36–45,Male,Diploma,Self-employed,RM1000–RM3000,7–10 years,Yes,4,Yes,3,5,5,1,Yes,5,5,1,Yes,4,5,5,Yes
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,4,Yes,3,3,4,2,Yes,4,5,3,No,4,5,4,Yes
+5/9/2025 22:02,18–25,Female,Degree,Employed,RM5001–RM7000,4–6 years,Yes,3,Yes,4,4,4,2,Yes,4,4,3,No,5,4,4,Yes
+5/9/2025 22:02,56 and above,Male,PhD,Retired,Below RM1000,Less than 1 year,No,1,No,1,1,1,5,No,1,1,5,Yes,1,1,1,No
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes
+5/9/2025 22:02,26–35,Female,Degree,Employed,RM3001–RM5000,1–3 years,Yes,3,Yes,4,4,3,3,Yes,3,4,2,No,5,4,3,Yes

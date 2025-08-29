@@ -1,20 +1,25 @@
-# editors & caches
+# Editors & caches
 .vscode/
 .venv/
 __pycache__/
 *.pyc
 
-# large/local artifacts
-data/*.csv
-data/*.xlsx
+# Raw/large files we don't want
+data/*.xlsx    # ignore excel dumps
+*.log          # ignore logs
+*.tmp          # temp files
+
+# Models (can be big, keep only if needed)
 models/
-reports/
 
-# allow small samples we’ll add below
+# Data — allow important CSVs
 !data/sample_divorce_data.csv
-!reports/cv_rf_vs_lr.txt
-!reports/cv_rf_vs_lr.csv
-!reports/feature_importance.png
+!data/column_labels.json
+!data/divorce_data.csv
+!data/primary_survey.csv
 
-# envs & secrets (if any)
+# Reports — allow all reports
+!reports/**
+
+# Envs & secrets
 .env

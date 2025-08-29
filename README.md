@@ -1,29 +1,40 @@
 # Identifying Factors Affecting Muslim Marriage Success (Data Science Project)
 
-This repository contains an end-to-end data science project exploring factors associated with Muslim marriage success. It includes exploratory data analysis (EDA), classical machine learning models, and a lightweight Streamlit app for interactive visualization and demonstration.
+This repository contains an end-to-end data science project exploring factors associated with Muslim marriage success.  
+It includes **exploratory data analysis (EDA)**, classical machine learning models, and a **Streamlit app** for interactive visualization and prediction.
 
-> **Ethics**: This project is for educational purposes. Do not use any model here for real-world counseling or high-stakes decisions. Always anonymize personal data and follow your institution's research ethics guidelines.
+> **Ethics Disclaimer**: This project is for **educational purposes only**.  
+> Do not use the models here for real-world counseling or high-stakes decisions.  
+> Always anonymize personal data and follow your institution’s research ethics guidelines.
+
+---
 
 ## Repository Structure
-
 ```
 .
-├── app/                      # Streamlit app
-│   └── app.py
-├── data/
-│   └── README.md             # Put data files here (not committed)
-├── models/
-│   └── README.md             # Trained model artifacts (not committed)
-├── notebooks/                # Your analysis notebooks
-├── reports/                  # Exported charts, figures
-├── scripts/
-│   ├── train_model.py        # Trains a baseline RandomForest and saves model.pkl
-│   └── evaluate_model.py     # Reproducible evaluation with cross-validation
-├── src/                      # Reusable utilities
-│   └── utils.py
-├── requirements.txt
-├── LICENSE
-└── .gitignore
+├── app/ # Streamlit app
+│ └── app.py
+├── data/ # Input datasets
+│ ├── divorce_data.csv
+│ ├── primary_survey.csv
+│ └── sample_divorce_data.csv
+├── models/ # Trained model artifacts
+│ ├── model.pkl
+│ └── model.features.json
+├── notebooks/ # Jupyter notebooks for analysis
+│ ├── 01_primary_survey_eda_model.ipynb
+│ └── 02_divorce_predictors_kaggle_eda_model.ipynb
+├── reports/ # Results, metrics, figures
+│ ├── cv_rf_vs_lr.txt
+│ ├── feature_importance.png
+│ └── metrics_summary.md
+├── scripts/ # Training & evaluation scripts
+│ ├── train_model.py
+│ └── evaluate_model.py
+├── src/ # Utility functions
+│ └── utils.py
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 ```
 
 ## Quickstart (Local)
@@ -31,13 +42,20 @@ This repository contains an end-to-end data science project exploring factors as
 1. **Create environment & install deps**
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # on Windows: .venv\Scripts\activate
+   # Activate the environment
+   # On Windows:
+   .venv\Scripts\activate
+   # On Mac/Linux:
+   source .venv/bin/activate
+
+   # Install dependencies
    pip install -r requirements.txt
    ```
 
 2. **Add data**
-   - Place `divorce_data.csv` (Kaggle DPS) into `data/`.
-   - (Optional) Place your **primary** survey CSV into `data/` but **do not commit** it.
+   - Place divorce_data.csv into the data/ folder.
+   - (Optional) Place your primary_survey.csv file into data/ as well.
+   - A small sample_divorce_data.csv is included for quick testing.
 
 3. **Train a baseline model**
    ```bash
@@ -51,7 +69,7 @@ This repository contains an end-to-end data science project exploring factors as
 
 ## Result
 
-We evaluated two baselines with 5-fold Stratified CV on the Kaggle Divorce Predictors dataset:
+We evaluated two baseline models using 5-fold Stratified Cross Validation on the Kaggle Divorce Predictors dataset:
 
 - **RandomForest (300 trees)** performs slightly better overall than **Logistic Regression**.
 - Both models achieve very high ROC AUC (≥ 0.99), which is expected on this dataset.

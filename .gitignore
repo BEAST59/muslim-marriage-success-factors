@@ -4,29 +4,24 @@
 __pycache__/
 *.pyc
 
-# Raw/large files we don't want
-data/*.xlsx    # ignore excel dumps
-*.log          # ignore logs
-*.tmp          # temp files
+# Raw/Large files we don't want
+data/*.xlsx       # ignore excel dumps
+*.log             # ignore logs
+*.tmp             # ignore temp files
 
-# Models (can be big, keep only if needed)
-models/
+# Models (keep these so Streamlit can load them)
+!models/
+!models/model.pkl
+!models/model.features.json
 
-# allow the small demo model bundled with the app
-!app/models/
-!app/models/model.pkl
-!app/models/model.features.json
-
-
-# Data — allow important CSVs
+# Data (allow full datasets so Streamlit can use them)
 !data/sample_divorce_data.csv
-!data/column_labels.json
 !data/divorce_data.csv
 !data/primary_survey.csv
+!data/column_labels.json
 
-# Reports — allow all reports
+# Reports (keep charts/metrics)
 !reports/**
 
-# Envs & secrets
+# Env & secrets (never commit!)
 .env
-

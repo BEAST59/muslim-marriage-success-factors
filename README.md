@@ -1,5 +1,7 @@
 # Identifying Factors Affecting Muslim Marriage Success (Data Science Project)
 
+**Live demo:** https://muslim-marriage-success-factors-folj3apwkzkc98edyuvq7e.streamlit.app/#model-context
+
 This repository contains an end-to-end data science project exploring factors associated with Muslim marriage success.  
 It includes **exploratory data analysis (EDA)**, classical machine learning models, and a **Streamlit app** for interactive visualization and prediction.
 

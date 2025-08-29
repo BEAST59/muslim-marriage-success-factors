@@ -12,28 +12,28 @@ It includes **exploratory data analysis (EDA)**, classical machine learning mode
 ## Repository Structure
 ```
 .
-├── app/ # Streamlit app
+├── app/ 
 │ └── app.py
-├── data/ # Input datasets
+├── data/ 
 │ ├── divorce_data.csv
 │ ├── primary_survey.csv
 │ └── sample_divorce_data.csv
-├── models/ # Trained model artifacts
+├── models/ 
 │ ├── model.pkl
 │ └── model.features.json
-├── notebooks/ # Jupyter notebooks for analysis
+├── notebooks/ 
 │ ├── 01_primary_survey_eda_model.ipynb
 │ └── 02_divorce_predictors_kaggle_eda_model.ipynb
-├── reports/ # Results, metrics, figures
+├── reports/ 
 │ ├── cv_rf_vs_lr.txt
 │ ├── feature_importance.png
 │ └── metrics_summary.md
-├── scripts/ # Training & evaluation scripts
+├── scripts/ 
 │ ├── train_model.py
 │ └── evaluate_model.py
-├── src/ # Utility functions
+├── src/ 
 │ └── utils.py
-├── requirements.txt # Dependencies
+├── requirements.txt 
 └── README.md # Project documentation
 ```
 

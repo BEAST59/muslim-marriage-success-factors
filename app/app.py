@@ -305,8 +305,8 @@ with tab1:
 # TAB 2: Predict (Manual + Batch) + Model Context
 with tab2:
     st.subheader("Use a saved model (baseline RandomForest)")
-    model_path = Path("app/models/model.pkl")
-    features_path = Path("app/models/model.features.json")
+    model_path = Path("models/model.pkl")
+    features_path = Path("models/model.features.json")
 
     if not model_path.exists() or not features_path.exists():
         st.warning("No saved model found. Train one with `python -m scripts.train_model --data data\\divorce_data.csv --target Divorce`.")

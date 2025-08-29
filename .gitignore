@@ -12,6 +12,12 @@ data/*.xlsx    # ignore excel dumps
 # Models (can be big, keep only if needed)
 models/
 
+# allow the small demo model bundled with the app
+!app/models/
+!app/models/model.pkl
+!app/models/model.features.json
+
+
 # Data — allow important CSVs
 !data/sample_divorce_data.csv
 !data/column_labels.json
@@ -23,3 +29,4 @@ models/
 
 # Envs & secrets
 .env
+

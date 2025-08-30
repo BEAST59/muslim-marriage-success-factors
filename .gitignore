@@ -29,3 +29,5 @@ data/*.xlsx        # ignore excel dumps
 # ========================
 # Env & secrets (never commit!)
 .env
+
+reports/DataScience GROUP 6 PROJECT REPORT.pdf
